@@ -53,11 +53,11 @@ $('.accordion__link').on('click', function (e) {
    
 })
 
-if ($(window).scrollTop()>0){
-  $('.burger').addClass('burger--follow')
-}else{
-  $('.burger').removeClass('burger--follow')
-}
+// if ($(window).scrollTop()>0){
+//   $('.burger').addClass('burger--follow')
+// }else{
+//   $('.burger').removeClass('burger--follow')
+// }
 $('.burger,.overlay').on('click', function (e) {
   e.preventDefault()
   $('.header__burger').toggleClass('header__burger--open')
