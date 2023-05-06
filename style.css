@@ -1495,7 +1495,7 @@ transition: all 1s;
         width: 42px;
         height: 42px;
         border-radius: 50%;
-        
+        background-color: #DE131E;
         z-index: 201;
         display: flex;
         flex-direction: column;
@@ -1503,7 +1503,7 @@ transition: all 1s;
         align-items: center; 
     }  
     .burger--follow{
-        background-color: #DE131E;
+        
     }
     .burger span{
         display: block;
