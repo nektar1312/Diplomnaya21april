@@ -67,6 +67,6 @@ $('.burger,.overlay').on('click', function (e) {
 $('.burger').on('click', function (e) {
   e.preventDefault()
   $(this).toggleClass('burger--active')
-  
+  $('.scroll').toggleClass('scroll-not')
 })
 ;
