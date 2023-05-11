@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="shortcut icon" href="Vector.svg" type="image/x-icon">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    <title>Дипломный сайт</title>
+</head>
+<body class="scroll">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="burger  ">
+                    <span></span>
+                </a>
+                <div class="overlay overlay--show"></div>
+                <div class="header__burger ">
+                        <div class="burger__top">
+                            <div class="burger__logo">
+                                <a href="#">
+                                    <img src="smolllogo.png">
+                                </a>
+                            </div>
+                            <a href="#">
+                              <div class="burger__tell">
+                                
+                              </div>  
+                            </a> 
+                        </div>
+                        <nav class="burger__nav ">
+                                <ul class="burger__nav-list">
+                                    <li class="burger__nav-link ">
+                                        <a  href="#">Трек-дни</a>
+                                    </li>
+                                    <li class="burger__nav-link ">
+                                        <a href="#" >Спорткары</a>
+                                    </li>
+                                    <li class="burger__nav-link ">
+                                        <a href="#" >Сертификаты</a>
+                                    </li>
+                                    <li class="burger__nav-link ">
+                                        <a href="#" >Как проходят заезды</a>
+                                    </li>
+                                    
+                                </ul>
+                        </nav>
+                        
+                </div>
+
+                <div class="header__top">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="logo.png">
+                        </a>
+                    </div>
+                    
+                    <nav class="header__nav ">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-link header__nav-link a">
+                                <a  href="#">Трек-дни</a>
+                            </li>
+                            <li class="header__nav-link header__nav-link b">
+                                <a href="#" >Спорткары</a>
+                            </li>
+                            <li class="header__nav-link header__nav-link c">
+                                <a href="#" >Сертификаты</a>
+                            </li>
+                            <li class="header__nav-link header__nav-link d">
+                                <a href="#" >Как проходят заезды</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <div class="header__icons">
+                        <a class="header__icon-inst" href="#">
+                            <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 11.0812C5.45588 11.0812 4.11765 9.75763 4.11765 7.99292C4.11765 6.33851 5.35294 4.90469 7 4.90469C8.54411 4.90469 9.88235 6.22821 9.88235 7.99292C9.88235 9.64733 8.54411 11.0812 7 11.0812Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 0.49292H3.5C2.67647 0.603214 2.26471 0.713508 1.95588 0.823803C1.54412 0.934097 1.2353 1.15469 0.926472 1.48557C0.682104 1.74739 0.566644 2.00921 0.427089 2.32568C0.390309 2.40909 0.351754 2.49651 0.308823 2.58851C0.292898 2.6397 0.27451 2.69352 0.2548 2.75121C0.147108 3.06645 0 3.49707 0 4.24292V11.7429C0.102942 12.6253 0.205881 13.0665 0.308823 13.3973C0.411764 13.8385 0.617649 14.1694 0.926472 14.5003C1.17084 14.7621 1.41521 14.8858 1.71058 15.0353C1.78849 15.0748 1.86995 15.116 1.95588 15.162C2.00366 15.1791 2.05389 15.1988 2.10774 15.2199C2.40196 15.3353 2.80387 15.4929 3.5 15.4929H10.5C11.3235 15.3826 11.7353 15.2723 12.0441 15.162C12.4559 15.0517 12.7647 14.8312 13.0735 14.5003C13.3179 14.2385 13.4333 13.9766 13.5729 13.6602C13.6097 13.5767 13.6482 13.4894 13.6912 13.3973C13.7071 13.3461 13.7255 13.2923 13.7452 13.2346C13.8529 12.9194 14 12.4888 14 11.7429V4.24292C13.8971 3.36057 13.7941 2.91939 13.6912 2.58851C13.5882 2.14733 13.3824 1.81645 13.0735 1.48557C12.8292 1.22374 12.5848 1.10004 12.2894 0.950515C12.2116 0.911137 12.1299 0.869763 12.0441 0.823803C11.9963 0.806741 11.9461 0.787038 11.8923 0.765923C11.598 0.650538 11.1961 0.49292 10.5 0.49292ZM7 3.25027C4.52941 3.25027 2.57353 5.34586 2.57353 7.99292C2.57353 10.64 4.52941 12.7356 7 12.7356C9.47058 12.7356 11.4265 10.64 11.4265 7.99292C11.4265 5.34586 9.47058 3.25027 7 3.25027ZM12.5588 3.13998C12.5588 3.74912 12.0979 4.24292 11.5294 4.24292C10.9609 4.24292 10.5 3.74912 10.5 3.13998C10.5 2.53084 10.9609 2.03704 11.5294 2.03704C12.0979 2.03704 12.5588 2.53084 12.5588 3.13998Z" fill="white"/>
+                                </svg>
+                        </a>
+                        <a class="header__icon-face" href="#">
+                            <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 0.49292H5.81818C4.85376 0.49292 3.92884 0.888008 3.24688 1.59127C2.56493 2.29453 2.18182 3.24836 2.18182 4.24292V6.49292H0V9.49292H2.18182V15.4929H5.09091V9.49292H7.27273L8 6.49292H5.09091V4.24292C5.09091 4.04401 5.16753 3.85324 5.30392 3.71259C5.44031 3.57194 5.6253 3.49292 5.81818 3.49292H8V0.49292Z" fill="white"/>
+                                </svg>
+                        </a>
+                        <a class="header__icon-tell" href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.4432 15.4929C11.6854 15.4929 9.99764 15.1588 8.37993 14.4905C6.76168 13.8228 5.33014 12.8963 4.08529 11.7109C2.83992 10.526 1.84782 9.12539 1.10901 7.50901C0.369671 5.89321 0 4.1372 0 2.24098C0 1.60891 0.162996 1.07739 0.488989 0.646437C0.815514 0.215479 1.2784 0 1.87765 0H3.73533C4.09488 0 4.37453 0.111187 4.57428 0.333562C4.77403 0.55651 4.91386 0.876281 4.99376 1.29287C5.07366 1.72383 5.16368 2.16915 5.26382 2.62884C5.36343 3.08853 5.47982 3.49794 5.61298 3.85707C5.73283 4.15874 5.76959 4.44231 5.72325 4.70778C5.67637 4.97383 5.53974 5.22896 5.31336 5.47317L3.75531 7.11081C4.39451 8.11637 5.28353 9.08948 6.42237 10.0301C7.56068 10.9713 8.66916 11.6143 9.74782 11.9591L10.6667 9.95513C10.7865 9.69655 10.9397 9.52072 11.1261 9.42764C11.3125 9.33397 11.5722 9.30151 11.9051 9.33024C12.2514 9.35897 12.5944 9.37333 12.9342 9.37333C13.2735 9.37333 13.6563 9.35897 14.0824 9.33024C14.4819 9.30151 14.8183 9.41643 15.0915 9.67501C15.3643 9.93358 15.5472 10.3502 15.6405 10.9248L15.9601 12.8641C15.9601 12.8641 15.9734 12.9862 16 13.2304C16 13.8337 15.7704 14.3618 15.3113 14.8146C14.8516 15.2668 14.2289 15.4929 13.4432 15.4929Z" fill="#DE131E"/>
+                                </svg>
+                        </a>
+                    </div>
+                    <div class="header__lang">
+                        
+                        <div class="header__lang-icon">
+                            <select  class="header__lang-link" href="#">
+                                <img src="langicon.svg">
+                                <option class="ru" value="RU">RU</option>
+                                <option value="EN">EN</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__body">
+                    <div class="header__body-inner">
+                        <div class="header__body-bigtext">
+                            <div class="bigtext__white">ТРЕК-ДНИ</div> 
+                            С READYONE
+                        </div>
+                        <div class="header__body-sticks">
+                            <img src="stick.svg">
+                        </div>
+                        <div class="header__body-smalltext">
+                            Не просто аренда спорткара, а настоящее 
+                            погружение в мир автоспорта
+                        </div>
+                        <div class="header__body-button">
+                            <a class="header__body-btn" href="#">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                    <div class="header__body-scroll">
+                        <img src="scroll.svg">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main class="main">
+        <section class="date">
+            <div class="container">
+                <div class="date__title">
+                    Выбери дату 
+                    <div class="date__title-red">для поездки</div> 
+                </div>
+                <div class="date__wrapper">
+                    <div class="date__body-left">
+                    <div class="date__left-text">
+                        31
+                        <div class="date__text-white">мая</div>
+                    </div>
+                        <div class="date__text-info">
+                            <div class="date__info-dayweek">вторник</div>
+                            <div class="date__info-arrow">
+                                <div class="date__arrow-left">
+                                    <a href="#" class="date__arrow-link">
+                                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 20L0 10L10 0L11.775 1.775L3.55 10L11.775 18.225L10 20Z" fill="#8E8E8E"/>
+                                        </svg>
+                                    </a>
+                                    
+                                </div>
+                                <div class="date__arrow-right">
+                                    <a href="#" class="date__arrow-link">
+                                        <svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.025 20L0.25 18.225L8.475 10L0.25 1.775L2.025 0L12.025 10L2.025 20Z" fill="#8E8E8E"/>
+                                        </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    <div class="date__body-img">
+                        <svg width="391" height="301" viewBox="0 0 391 301" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.00993 292.598C2.1766 288.931 4.63901 272.917 9.00993 261.098C11.8577 253.397 14.0655 249.298 18.0099 242.098C23.1616 232.693 27.2274 228.128 33.0099 219.098C39.3494 209.197 46.6099 196.398 49.0099 193.598C51.4099 190.798 54.9099 189.998 56.5099 175.598C58.1099 161.198 73.8432 152.931 81.5099 150.598L90.0099 140.598C98.3432 130.931 115.51 109.598 115.51 109.598C115.51 109.598 124.677 99.5977 129.01 95.5977C133.343 91.5977 183.01 60.0977 183.01 60.0977L229.51 29.5977L249.51 16.0977C257.11 7.69766 262.01 8.26432 263.51 9.59766C271.91 17.5977 281.343 16.2643 285.01 14.5977C287.843 13.2643 294.51 9.49764 298.51 5.09764C302.51 0.697645 308.843 1.93098 311.51 3.09764L331.01 18.5976L360.01 40.5976C370.41 55.3976 358.01 56.0976 350.51 54.5976L333.01 40.0976C323.41 34.0976 308.343 41.2643 302.01 45.5976C287.843 53.931 259.11 70.6976 257.51 71.0976C255.51 71.5976 235.51 84.0976 231.51 88.0976C228.31 91.2976 230.01 107.098 230.01 107.098C230.01 107.098 236.01 124.098 240.51 130.098C245.01 136.098 256.51 139.764 263.01 139.598L314.51 140.098C330.51 140.098 334.51 148.098 334.51 152.098C334.51 152.098 334.51 165.598 335.51 173.098C336.51 180.598 360.343 187.931 369.51 187.598C381.91 187.598 387.677 195.598 389.01 199.598C390.21 207.198 385.843 218.098 383.51 222.598C377.11 232.598 363.51 235.764 357.51 236.098C333.51 238.098 320.01 229.098 316.01 227.598C312.81 226.398 291.01 209.431 280.51 201.098C276.01 197.431 264.91 187.998 256.51 179.598C248.11 171.198 232.343 168.431 225.51 168.098C217.677 168.264 199.01 168.098 199.01 168.098C199.01 168.098 186.01 169.098 176.51 177.098C168.91 183.498 157.677 193.098 153.01 197.098C148.343 201.098 99.5099 226.098 99.5099 226.098C94.7099 228.898 93.1766 225.264 93.0099 223.098C92.2099 210.298 83.6766 216.098 79.5099 220.598C79.5099 220.598 50.0099 251.598 48.5099 253.598C47.0099 255.598 21.3099 290.098 12.5099 296.098C3.70993 302.098 1.84326 296.264 2.00993 292.598Z" stroke="white" stroke-opacity="0.5" stroke-width="3"/>
+                            <path d="M14.5099 248.598C12.3432 257.264 9.30986 276.298 14.5099 283.098C14.8432 283.098 18.2099 280.298 29.0099 269.098C39.8099 257.898 56.1766 239.431 63.0099 231.598C69.6766 218.098 84.6099 195.898 91.0099 215.098" stroke="white" stroke-opacity="0.5"/>
+                            </svg>
+                        <div class="date__image-face">
+
+                        </div>
+                        <div class="date__image-namebox">
+                            <div class="date__image-name">Яркко 
+                                <span>Миеттинен</span></div>
+                            <div class="date__image-profession">инструктор</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="date__body-right">
+                    <div class="date__bignumber">
+                        <div class="date__bignumber-one">1
+                            <div class="date__day">июня</div>
+                            <div class="date__day-week">среда</div>
+                        </div>
+                        <div class="date__bignumber-two">19
+                            <div class="date__day">июня</div>
+                            <div class="date__day-week">среда</div>
+                        </div>
+                        <div class="date__bignumber-three">22
+                            <div class="date__day">июня</div>
+                            <div class="date__day-week">среда</div>
+                        </div>
+                    </div>
+                    <div class="date__calendar">
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day calendar__day-2">2</li>
+                                <li class="calendar__day">8</li>
+                                <li class="calendar__day">14</li>
+                                <li class="calendar__day">20</li>
+                                <li class="calendar__day">26</li>
+                            </ul>
+                        </div>
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day">3</li>
+                                <li class="calendar__day">9</li>
+                                <li class="calendar__day">15</li>
+                                <li class="calendar__day">21</li>
+                                <li class="calendar__day">27</li>
+                            </ul>
+                        </div>
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day">4</li>
+                                <li class="calendar__day">10</li>
+                                <li class="calendar__day">16</li>
+                                <li class="calendar__day calendar__day-22">22</li>
+                                <li class="calendar__day">28</li>
+                            </ul>
+                        </div>
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day">5</li>
+                                <li class="calendar__day">11</li>
+                                <li class="calendar__day">17</li>
+                                <li class="calendar__day">23</li>
+                                <li class="calendar__day">29</li>
+                            </ul>
+                        </div>
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day calendar__day-6">6</li>
+                                <li class="calendar__day">12</li>
+                                <li class="calendar__day">18</li>
+                                <li class="calendar__day">24</li>
+                                <li class="calendar__day">30</li>
+                            </ul>
+                        </div>
+                        <div class="date__calendar-colomn">
+                            <ul class="calendar__list">
+                                <li class="calendar__day">7</li>
+                                <li class="calendar__day">13</li>
+                                <li class="calendar__day calendar__day-19">19</li>
+                                <li class="calendar__day">25</li>
+                                <li class="calendar__day calendar__day-1">1</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="date__box date__box-1">
+                        Моя поездка была не описуема! Я обязательно возьму вторую поездку.
+                    </div>
+                    <div class="date__box date__box-2">
+                        Моя поездка была не описуема! Я обязательно возьму вторую поездку.
+                    </div>
+
+                </div>
+            </div>
+                
+            </div>
+        </section>
+        <section class="programm">
+            <div class="container">
+                <div class="programm__title">Что включает программа</div>
+                <div class="programm__adaptive">
+                    <div class="programm__adaptive-item">
+                        <div class="programm__adaptive-top">
+                            <div class="programm__adaptive-namber">01</div>
+                            <div class="programm__adaptive-text">
+                                    <div class="programm__adaptive-title">АРЕНДА СПОРТКАРА</div>
+                                <div class="programm__adaptive-subtitle">
+                                    Автомобили, готовые к экстремальным нагрузкам
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="programm__adaptive-img">
+                            <img class="programm__adaptive-image" src="porsche1.jpg" alt="car">
+                        </div>
+                    </div>
+                    <div class="programm__adaptive-item">
+                        <div class="programm__adaptive-top">
+                            <div class="programm__adaptive-namber">02</div>
+                            <div class="programm__adaptive-text">
+                                <div class="programm__adaptive-title">ГОНОЧНЫЙ ИНСТРУКТОР</div>
+                                <div class="programm__adaptive-subtitle">
+                                    Профессионалы, тренирующие пилотов самого разного уровня
+                                </div> 
+                            </div>
+                            
+                        </div>
+                        <div class="programm__adaptive-img">
+                            <img class="programm__adaptive-image" src="porsche2.jpg" alt="car">
+                        </div>
+                    </div>
+                    <div class="programm__adaptive-item">
+                        <div class="programm__adaptive-top">
+                            <div class="programm__adaptive-namber">03</div>
+                            <div class="programm__adaptive-text">
+                                <div class="programm__adaptive-title">Потрясающие треки</div>
+                                <div class="programm__adaptive-subtitle">
+                                    Лучшие гоночные трыссы Бельгии
+                                </div> 
+                            </div>
+                            
+                        </div>
+                        <div class="programm__adaptive-img">
+                            <img class="programm__adaptive-image" src="porsche3.jpg" alt="car">
+                        </div>
+                    </div>
+                    <div class="programm__adaptive-item">
+                        <div class="programm__adaptive-top">
+                            <div class="programm__adaptive-namber">04</div>
+                            <div class="programm__adaptive-text">
+                                <div class="programm__adaptive-title">ВНИМАНИЕ К КАЖДОЙ ДЕТАЛИ</div>
+                                <div class="programm__adaptive-subtitle">
+                                    Оборудованные боксы и индивидуальная экипировка – мы позаботились обо всем
+                                </div> 
+                            </div>
+                            
+                        </div>
+                        <div class="programm__adaptive-img">
+                            <img class="programm__adaptive-image" src="porsche4.jpg" alt="car">
+                        </div>
+                    </div>
+                    <div class="programm__adaptive-item">
+                        <div class="programm__adaptive-top">
+                            <div class="programm__adaptive-namber">05</div>
+                            <div class="programm__adaptive-text">
+                                <div class="programm__adaptive-title">НЕЗАБЫВАЕМЫЙ ОПЫТ</div>
+                                <div class="programm__adaptive-subtitle">
+                                    Видео заезда и сертификат о прохождении курса для каждого клиента
+                                </div>  
+                            </div>
+                            
+                        </div>
+                        <div class="programm__adaptive-img">
+                            <img class="programm__adaptive-image" src="headerbg.jpg" alt="car">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="programm__body">
+                    <div class="programm__bignumber">
+                        <div class="programm__number">01</div>
+                        <div class="programm__number">02</div>
+                        <div class="programm__number">03</div>
+                        <div class="programm__number">04</div>
+                        <div class="programm__number">05</div>
+                    </div>
+                    <div class="programm__text">
+                        <div class="programm__text-box box-1">
+                            <div class="programm__text-title">АРЕНДА спорткара</div>
+                            <div class="programm__text-stick"></div>
+                            <div class="programm__text-subtitle">Автомобили, готовые к экстремальным
+                            нагрузкам
+                           </div>
+                        </div>
+                        <div class="programm__text-box box-2">
+                            <div class="programm__text-title">ГОнОЧНЫЙ ИНСТРУКТОР</div>
+                            <div class="programm__text-stick"></div>
+                            <div class="programm__text-subtitle">Профессионалы, тренирующие пилотов 
+                            самого разного уровня</div>
+                        </div>
+                        <div class="programm__text-box box-3">
+                            <div class="programm__text-title">потрясающие треки</div>
+                            <div class="programm__text-stick"></div>
+                            <div class="programm__text-subtitle">Лучшие гоночные трассы Бельгии</div>
+                        </div>
+                        <div class="programm__text-box box-4">
+                            <div class="programm__text-title">вНИМАНИЕ К КАЖДОЙ ДЕТАЛИ</div>
+                            <div class="programm__text-stick"></div>
+                            <div class="programm__text-subtitle">Оборудованные боксы и индивидуальная 
+                            экипировка – мы позаботились обо всем</div>
+                        </div>
+                        <div class="programm__text-box box-5">
+                            <div class="programm__text-title">нЕЗАБЫВАЕМЫЙ ОПЫТ</div>
+                            <div class="programm__text-stick"></div>
+                            <div class="programm__text-subtitle">Видео заезда и сертификат о прохождении
+                            курса для каждого клиента
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="programm__button">
+                    <a href="#" class="programm__btn">
+                    ЗАКАЗАтЬ
+                   </a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sportcar">
+            <div class="container">
+                <div class="sportcar__had">
+                    <div class="sportcar__inner"> 
+                        <h2 class="sportcar__title">сПОРТКАРЫ</h2>
+                        <h3 class="sportcar__subtitle">
+                            Мы располагаем собственным парком автомобилей. 
+                            Все спорткары специально подготовлены для экстремальных нагрузок и достижения максимального удовольствия от управления
+                        </h3>
+                    </div>
+                   
+                    <div class="sportcar__had-image">
+                        <div class="sportcar__had-img">
+                            <img src="smallporsh.png">
+                        </div>
+                        <div class="sportcar__had-red">
+                            911 GT3
+                        </div>
+                    </div>
+                </div>
+                <div class="sportcar__slider">
+                    <div class="sportcar__slider-face">
+                        <div class="sportcar__slide">
+                            <img src="porsche4.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche3.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche2.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche1.jpg">  
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="sl5.png">  
+                        </div>
+                    </div>
+                    <div class="sportcar__slider-nav">
+                        <div class="sportcar__slide">
+                            <img src="porsche4.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche3.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche2.jpg">
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="porsche1.jpg">  
+                        </div>
+                        <div class="sportcar__slide">
+                            <img src="sl5.png">  
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="sportcar__info-box">
+                    <div class="sportcar__info-gt3">pORSCHE <span>911 GT3</span></div>
+                    <div class="sportcar__info-text">
+                        <dl class="sportcar__info-list">
+                            <dt class="sportcar__info-term">1.48 минут</dt>
+                            <dd class="sportcar__info-description" >Время круга на MRW</dd>
+                        </dl>
+                        <dl class="sportcar__info-list">
+                            <dt class="sportcar__info-term">306 км/час</dt>
+                            <dd class="sportcar__info-description">Максимальная скорость</dd>
+                        </dl>
+                        <dl class="sportcar__info-list">
+                            <dt class="sportcar__info-term">4.1 секунд</dt>
+                            <dd class="sportcar__info-description">Разгон 0-100 км/ч</dd>
+                        </dl>
+                        <dl class="sportcar__info-list">
+                            <dt class="sportcar__info-term">420 л/с</dt>
+                            <dd class="sportcar__info-description">Мощность двигателя</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="sportcar__button">
+                    <a href="#" class="sportcar__btn">зАКАЗАТЬ</a>
+                </div>
+                <div class="sportcar__bottom-text">От 200 € за программу</div>
+            </div>
+            
+        </section>
+        <section class="certificate">
+            <div class="container">
+                <div class="certificate__wrapper">
+                  <div class="certificate__left">
+                    <div class="certificate__head">
+                        <h2 class="certificate__title">ПоДАРОЧНЫЕ СЕРТИФИКАТЫ</h2>
+                        <div class="certificate__subtitle">Лучший подарок на свете</div>
+                    </div> 
+                    <div class="certificate__body">
+                        <div class="certificate__body-left">
+                            <div class="certificate__body-inner">
+                                <ul>
+                                    <li class="certificate__body-list">Подарок способный изменить жизнь</li>
+                                    <li class="certificate__body-list">Для близкого человека,друга,коллеги или партнера</li>
+                                    <li class="certificate__body-list">Подарочный сертификат доступенв виде программыили депозита на определённую сумму</li>
+                                </ul>
+                            </div>
+                            <div class="certificate__body-buttons">
+                                <a href="#" class="certificate__button-red">
+                                Заказать
+                                </a>
+                                <a href="#" class="certificate__button-black">
+                                Подробнее
+                                </a>
+                            </div>
+
+                        </div>  
+                    </div>     
+                    </div>
+                    <div class="certificate__right"> 
+                        <div class="certificate__image">
+                            <img src="certificate.png">
+                        </div> 
+                    </div>   
+                </div>
+                
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <div class="video__wrapper">
+                    <div class="video__head">
+                        <div class="video__head-title">кАК ПРОХОДИТ ЗАЕЗД</div>
+                        <div class="video__head-subtitle">Наши инструкторы — настоящие профессионалы, способные быстро и безопасно передать накопленные в автоспорте знания</div>
+                    </div>
+                    <div class="video__body">
+                        <a  class="video__body-link" href="https://youtu.be/yIv9-AEIpZc" data-fancybox>
+                            <img src="viideo.jpg" />
+                          </a>
+                          
+                    </div> 
+                </div>
+                
+
+            </div>
+        </section>
+        <section class="comment">
+            <div class="container">
+                <div class="comment__wrapper">
+                    <div class="comment__head">
+                        <div class="comment__title">отзывы</div>
+                        <div class="comment__subtitle">
+                            <div class="comment__subtitle-star">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.2915 19.875C16.125 19.8757 15.9606 19.8364 15.8124 19.7605L10.4999 16.9792L5.18738 19.7605C5.01487 19.8512 4.82037 19.8917 4.626 19.8773C4.43162 19.863 4.24516 19.7944 4.08782 19.6794C3.93048 19.5644 3.80856 19.4075 3.73593 19.2267C3.6633 19.0458 3.64287 18.8482 3.67696 18.6563L4.71863 12.7917L0.426958 8.62505C0.29306 8.49143 0.198074 8.32387 0.152195 8.14035C0.106316 7.95684 0.111276 7.76429 0.166541 7.58338C0.226916 7.39825 0.337975 7.23375 0.487115 7.10855C0.636254 6.98334 0.817503 6.90245 1.01029 6.87505L6.94779 6.01047L9.56238 0.666716C9.64767 0.4906 9.78085 0.342073 9.94666 0.238147C10.1125 0.134222 10.3042 0.0791016 10.4999 0.0791016C10.6956 0.0791016 10.8873 0.134222 11.0531 0.238147C11.2189 0.342073 11.3521 0.4906 11.4374 0.666716L14.0832 6.00005L20.0207 6.86463C20.2135 6.89203 20.3947 6.97293 20.5439 7.09813C20.693 7.22333 20.8041 7.38783 20.8645 7.57297C20.9197 7.75388 20.9247 7.94642 20.8788 8.12994C20.8329 8.31345 20.7379 8.48101 20.604 8.61463L16.3124 12.7813L17.354 18.6459C17.3912 18.8412 17.3718 19.043 17.2979 19.2276C17.2241 19.4122 17.099 19.5718 16.9374 19.6875C16.7488 19.8197 16.5216 19.8857 16.2915 19.875Z" fill="#F2C94C"/>
+                                </svg>
+                            </div>
+                            <span class="comment__subtitle-numb">4.8</span>
+                            5 оценок
+                        </div>
+                    </div>
+                    <div class="comment__slider-wrapper">
+                        <div class="comment__slider">
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava1.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Антон Щербак</div>
+                                        <div class="comment__slider-from">Москва</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Заказывал строительство
+                                    дома у компании Paneco.
+                                    Переживал по поводу
+                                    сроков, так как была
+                                    поздняя осень. Но скорость
+                                    строительства меня
+                                    поразила. Через 4 дня уже
+                                    стояла готовая коробка, а
+                                    внутреннее оформление
+                                    заняло еще от силы 3
+                                    недели. В декабре мы
+                                    заселились! Рекомендую!
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava2.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Гена Трухин</div>
+                                        <div class="comment__slider-from">Химки</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    У меня небольшая строительная компания. Искал подрядчиков, так вышел на ребят с Paneco. Сотрудничаем уже 2 года. Все заказы выполняются вовремя, на качество за все это время ни одного нарекания. Да и цены радуют своей доступностью. Доволен на все 100%.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava3.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Ангелина</div>
+                                        <div class="comment__slider-from">Долгопрудный</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Я архитектор-дизайнер, поэтому когда ко мнеобращаются за проектом современного доме, я всегда советую обращаться сюда. Во-первых, сверхбыстрые сроки возведения, во вторых, качество проверенное временем. Моя благодрность вам за взаимовыгодное сотрудничество.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava4.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Антон Вишкин</div>
+                                        <div class="comment__slider-from">Москва</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Заказывал строительство
+                                    дома у компании Paneco.
+                                    Переживал по поводу
+                                    сроков, так как была
+                                    поздняя осень. Но скорость
+                                    строительства меня
+                                    поразила. Через 4 дня уже
+                                    стояла готовая коробка, а
+                                    внутреннее оформление
+                                    заняло еще от силы 3
+                                    недели. В декабре мы
+                                    заселились! Рекомендую!
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava1.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Антон Щербак</div>
+                                        <div class="comment__slider-from">Москва</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Заказывал строительство
+                                    дома у компании Paneco.
+                                    Переживал по поводу
+                                    сроков, так как была
+                                    поздняя осень. Но скорость
+                                    строительства меня
+                                    поразила. Через 4 дня уже
+                                    стояла готовая коробка, а
+                                    внутреннее оформление
+                                    заняло еще от силы 3
+                                    недели. В декабре мы
+                                    заселились! Рекомендую!
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava2.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Гена Трухин</div>
+                                        <div class="comment__slider-from">Химки</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    У меня небольшая строительная компания. Искал подрядчиков, так вышел на ребят с Paneco. Сотрудничаем уже 2 года. Все заказы выполняются вовремя, на качество за все это время ни одного нарекания. Да и цены радуют своей доступностью. Доволен на все 100%.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava3.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Ангелина</div>
+                                        <div class="comment__slider-from">Долгопрудный</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Я архитектор-дизайнер, поэтому когда ко мнеобращаются за проектом современного доме, я всегда советую обращаться сюда. Во-первых, сверхбыстрые сроки возведения, во вторых, качество проверенное временем. Моя благодрность вам за взаимовыгодное сотрудничество.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="comment__slide">
+                            <div class="comment__slide-inner">
+                                <div class="comment__slide-head">
+                                    <div class="comment__slide-avatar">
+                                        <img src="ava4.png">
+                                    </div>
+                                    <div class="comment__slide-info">
+                                        <div class="comment__slider-name">Антон Вишкин</div>
+                                        <div class="comment__slider-from">Москва</div>
+                                        <div class="comment__slider-star"></div>
+                                    </div>
+
+                                </div>
+                                <div class="comment__slide-text">
+                                    Заказывал строительство
+                                    дома у компании Paneco.
+                                    Переживал по поводу
+                                    сроков, так как была
+                                    поздняя осень. Но скорость
+                                    строительства меня
+                                    поразила. Через 4 дня уже
+                                    стояла готовая коробка, а
+                                    внутреннее оформление
+                                    заняло еще от силы 3
+                                    недели. В декабре мы
+                                    заселились! Рекомендую!
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="comment__slider-arrows">
+                            <a href="#" class="comment__slider-arrow comment__slider-prew">
+                                <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2678 1.23223C20.2441 2.20854 20.2441 3.79146 19.2678 4.76777L6.03553 18L19.2678 31.2322C20.2441 32.2085 20.2441 33.7915 19.2678 34.7678C18.2915 35.7441 16.7085 35.7441 15.7322 34.7678L0.732233 19.7678C-0.244078 18.7915 -0.244078 17.2085 0.732233 16.2322L15.7322 1.23223C16.7085 0.255922 18.2915 0.255922 19.2678 1.23223Z" fill="white"/>
+                                    </svg>
+                            </a>
+                            <a href="#" class="comment__slider-arrow comment__slider-next">
+                                <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.732234 1.23223C-0.244077 2.20854 -0.244077 3.79146 0.732234 4.76777L13.9645 18L0.732234 31.2322C-0.244077 32.2085 -0.244077 33.7915 0.732234 34.7678C1.70854 35.7441 3.29146 35.7441 4.26777 34.7678L19.2678 19.7678C20.2441 18.7915 20.2441 17.2085 19.2678 16.2322L4.26777 1.23223C3.29146 0.255922 1.70854 0.255922 0.732234 1.23223Z" fill="white"/>
+                                    </svg>
+                            </a>
+                        </div>
+                        <div class="comment__slider-dots"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="accordion">
+            <div class="container">
+                <ul class="accordion__wrapper">
+                    <li class="accordion__inner">
+                        <a href="#" class="accordion__link ">
+                            <div class="accordion__head">
+                                Что такое “трек-день”?
+                                <div class="accordion__arrow  ">
+                                    
+                                </div>
+                            </div>
+                            <div class="accordion__text" style="display: none;">
+                                <p>"Трек-день" – день, когда гоночная трасса открыта для всех желающих. В рамках трек-дней мы и проводим наши заезды. Расписание трек-дней обычно известно за несколько недель. Мы можем приглашать для участия в них и бронировать заезды.</p>
+                            </div>  
+                        </a>
+                       
+
+                    </li>
+                    <li class="accordion__inner">
+                        <a href="#" class="accordion__link ">
+                                <div class="accordion__head">
+                                Что такое “заезд” и почему его продолжительность различается на разных трассах?
+                                <div class="accordion__arrow">
+                                    
+                                </div>
+                            </div>
+                            <div class="accordion__text" style="display: none;">
+                                <p>"Трек-день" – день, когда гоночная трасса открыта для всех желающих. В рамках трек-дней мы и проводим наши заезды. Расписание трек-дней обычно известно за несколько недель. Мы можем приглашать для участия в них и бронировать заезды.</p>
+                            </div> 
+                        </a>
+                       
+
+                    </li>
+                    <li class="accordion__inner">
+                        <a href="#" class="accordion__link ">
+                            <div class="accordion__head">
+                                Можно ли приехать на гоночную трассу компанией?
+                                <div class="accordion__arrow">
+                                    
+                                </div>
+                            </div>
+                            <div class="accordion__text" style="display: none;">
+                                <p>"Трек-день" – день, когда гоночная трасса открыта для всех желающих. В рамках трек-дней мы и проводим наши заезды. Расписание трек-дней обычно известно за несколько недель. Мы можем приглашать для участия в них и бронировать заезды.</p>
+                            </div>  
+                        </a>
+                        
+
+                    </li>
+                    <li class="accordion__inner">
+                        <a href="#" class="accordion__link">
+                                <div class="accordion__head">
+                                Какой возраст и стаж необходим для участия в заезде?
+                                <div class="accordion__arrow">
+                                    
+                                </div>
+                            </div>
+                            <div class="accordion__text" style="display: none;">
+                                <p>"Трек-день" – день, когда гоночная трасса открыта для всех желающих. В рамках трек-дней мы и проводим наши заезды. Расписание трек-дней обычно известно за несколько недель. Мы можем приглашать для участия в них и бронировать заезды.</p>
+                            </div>
+                        </a>
+                        
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <div class="form__wrapper">
+                    <div class="form__body-left">
+                        <div class="form__left-title">нЕ НАШЛИ ОТВЕТА 
+                            НА СВОЙ ВОПРОС? </div>
+                        <div class="form__left-subtitle">Напишите или позвоните нам</div>
+                        <div class="form__left-link">
+                            <a class="form__link-tell" href="tel:+3287766164">+3287766164</a>
+                            <a class="form__link-mail" href="mailto:email@readyon.be">email@readyon.be</a>
+                        </div>
+                    </div>
+                    <div class="form__body-right">
+                        <form>
+                            <div class="form__right-item">
+                                <label class="form__right-block">
+                                    <input class="form__right-name" type="text" placeholder="Как вас зовут?"  required>
+                                </label>
+                            </div>
+                            <div class="form__right-item">
+                                 <label class="form__right-block">
+                                    <input class="form__right-email" type="email" placeholder="Email"  required>
+                                </label>
+                            </div>
+                            <div class="form__right-item">
+                                    <label class="form__right-block">
+                                        <textarea class="form__right-text"  placeholder="Сообщение" required></textarea> 
+                                    </label> 
+                            </div>
+                            <div class="form__right-item">
+                                <label class="form__right-blockcheck">
+                                    <input class="form__right-check" type="checkbox"  >
+                                    <span class="form__check-custom">
+                                        
+                                    </span>
+                                    Я согласен на обработку персональных данных
+                                </label>
+                            </div>
+                            <button type="submit" class="form__right-button">оТПРАВИТЬ</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__left">
+                    © 2017 - 2022 ReadyOn
+                </div>
+                <div class="footer__right">
+                    <a href="#" class="footer__right-inst">Instagram</a>
+                    <a href="#" class="footer__right-face">Facebook</a>
+                    <a href="#" class="footer__right-you">Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="script.js"></script>
+</html>
